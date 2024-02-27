@@ -6,7 +6,7 @@ import tailwind from "@astrojs/tailwind";
 export default defineConfig({
   integrations: [tailwind()],
   /* Internacionalización (idiomas) */
-  il8n: {
+  i18n: {
     defaultLocale: "es",
     locales: ["es", "en"],
     routing: {
