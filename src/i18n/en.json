@@ -1,20 +1,36 @@
 {
-  "SEO_TITLE": "ESLAND Awards 2024 - Celebrating the best of streaming and content creators",
+  "SEO_TITLE": "ESLAND Awards 2024 - Celebrating the Best in Streaming and Content Creators",
   "SEO_DESCRIPTION": "Discover the best content creators from Spain and Latin America",
   "INTRO_TITLE": "Welcome",
   "INTRO_TITLE_AFTER_BR": "to the ESLAND Awards",
-  "INTRO_DESCRIPTION_1": "Movies have the Oscars, music has the Grammys and <strong>streaming has the ESLANDs</strong>. The awards that celebrate the creativity and talent of the best content creators in the <strong>Spanish-speaking community</strong>",
-  "INTRO_DESCRIPTION_2": "Spain, Latin America and Andorra united by creators, both men and women, and their communities, to remember and relive <strong>some of the best moments of the year</strong>.",
-  "INTRO_DESCRIPTION_3": "After two galas held, one at the Palau de la Música Catalana in Barcelona, and another at the National Auditorium in Mexico City, we can only wait for <strong>the third edition in Andorra</strong>.",
-  "BENTO_1": "A new edition <strong>packed with new features</strong> and content, which will start several weeks before the long-awaited gala. <strong>Special live shows, collaborations, concerts and much more</strong> in what will be a true celebration dedicated to content creation.",
+  "INTRO_DESCRIPTION_1": "While cinema has the Oscars and music has the Grammys, <strong>streaming has the ESLAND Awards</strong>. Awards that celebrate the creativity and talent of the best content creators from <strong>the Spanish-speaking community</strong>.",
+  "INTRO_DESCRIPTION_2": "Spain, Latin America, and Andorra come together for creators and their communities to remember and relive <strong>some of the best moments of the year</strong>.",
+  "INTRO_DESCRIPTION_3": "After two celebrated galas, one at the Palau de la Música Catalana in Barcelona, and another at the National Auditorium in Mexico City, we now look forward to <strong>the third edition in Andorra</strong>.",
+  "BENTO_1": "A new edition <strong>full of novelties</strong> and content, starting several weeks before the anticipated gala. <strong>Special live streams, collaborations, concerts, and much more</strong> in what will be a true celebration dedicated to content creation.",
   "BENTO_TITLE_1": "ANDORRA: THE PINNACLE OF THE ESLAND AWARDS",
-  "BENTO_2": "One of the most anticipated days of the year in the Spanish-speaking community, with two major events concentrated in a single live broadcast. <strong>A white carpet</strong> where the best streamers of the year will walk, wearing their best clothes, just before knowing if they are the winners.",
+  "BENTO_2": "One of the most awaited days of the year in the Spanish-speaking community, with two major milestones concentrated in a single live event. <strong>A white carpet</strong> graced by the best streamers of the year, showcasing their best moments just before finding out if they are the winners.",
   "BENTO_TITLE_2": "THE WHITE CARPET",
   "BENTO_SUBTITLE_2": "February 16, 2024",
-  "BENTO_3": "A gala full of excitement, <strong>with the awards ceremony</strong>, concerts by international artists, and a lot of content designed exclusively for the Spanish-speaking streaming community.",
+  "BENTO_3": "A gala full of excitement, <strong>with award presentations</strong>, concerts by international artists, and a wealth of content designed exclusively for the Spanish-speaking streaming community.",
   "BENTO_TITLE_3": "THE GALA",
   "BENTO_SUBTITLE_3": "February 17, 2024",
-  "BENTO_4": "This year, reddit will not be part of the voting for the awards, but it will be <strong>part of the community</strong>. The official subreddit of the ESLAND Awards is open for you to share your clips, your opinions and to <strong>interact with the entire Spanish-speaking streaming community</strong>.",
+  "BENTO_4": "This year, Reddit will not be part of the award voting, but it will still <strong>be part of the community</strong>. The official ESLAND Awards subreddit is open to you, to share your clips, your opinions, and to <strong>interact with the entire community</strong> of the Spanish-speaking streaming world.",
   "BENTO_TITLE_4": "ENJOY THE COMMUNITY REDDIT",
-  "PREFOOTER_TITLE": "GUIDE TO THE 3RD EDITION OF THE ESLAND AWARDS"
+  "PREFOOTER_TITLE": "GUIDE TO THE 3rd EDITION OF THE ESLAND AWARDS",
+  "HEADER": {
+    "info": "INFO",
+    "archivo": "ARCHIVE",
+    "documental": "ESLAND: THE DOCUMENTARY"
+  },
+  "FOOTER": {
+    "legal": "LEGAL",
+    "aviso": "Legal Notice",
+    "privacidad": "Privacy",
+    "cookies": "Cookies",
+    "mapa": "SITE MAP",
+    "inicio": "Home",
+    "info": "Information",
+    "archivo": "Archive",
+    "derechos": "© 2023 ESLAND. All rights reserved."
+  }
 }
