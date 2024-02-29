@@ -1,5 +1,9 @@
 ---
 import Logo from './Logo.astro'
+import { getI18N } from '@i18n/index'
+
+const { currentLocale } = Astro
+const i18n = getI18N({currentLocale})
 ---
 
 <footer class="bg-black/40 mt-24 ">
@@ -33,49 +37,39 @@ import Logo from './Logo.astro'
           </div>
           <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
               <div>
-                  <h2 class="mb-6 text-sm font-semibold  uppercase text-white">LEGAL</h2>
+                  <h2 class="mb-6 text-sm font-semibold  uppercase text-white">{ i18n.FOOTER.legal }</h2>
                   <ul class="text-gray-400 font-medium">
                       <li class="mb-4">
-                          <a href="https://esland-web.vercel.app/aviso-legal/" class="hover:underline">Aviso Legal</a>
+                          <a href="https://esland-web.vercel.app/aviso-legal/" class="hover:underline">{ i18n.FOOTER.aviso }</a>
                       </li>
                       <li class="mb-4">
-                          <a href="https://tailwindcss.com/" class="hover:underline">Privacidad</a>
+                          <a href="https://tailwindcss.com/" class="hover:underline">{ i18n.FOOTER.privacidad }</a>
                       </li>
                       <li>
-                        <a href="https://tailwindcss.com/" class="hover:underline">Cookies</a>
+                        <a href="https://tailwindcss.com/" class="hover:underline">{ i18n.FOOTER.cookies }</a>
                     </li>
                   </ul>
               </div>
               <div>
-                  <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">MAPA WEB</h2>
+                  <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">{ i18n.FOOTER.mapa }</h2>
                   <ul class="text-gray-500 dark:text-gray-400 font-medium">
                       <li class="mb-4">
-                          <a href="https://github.com/themesberg/flowbite" class="hover:underline ">Inicio</a>
+                          <a href="https://github.com/themesberg/flowbite" class="hover:underline ">{ i18n.FOOTER.inicio }</a>
                       </li>
                       <li class="mb-4">
-                          <a href="https://discord.gg/4eeurUVvTy" class="hover:underline">Información</a>
+                          <a href="https://discord.gg/4eeurUVvTy" class="hover:underline">{ i18n.FOOTER.info }</a>
                       </li>
                       <li>
-                        <a href="https://discord.gg/4eeurUVvTy" class="hover:underline">Archivo</a>
+                        <a href="https://discord.gg/4eeurUVvTy" class="hover:underline">{ i18n.FOOTER.archivo }</a>
                     </li>
                   </ul>
               </div>
-              <div>
-                  <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">PRODUCIDO POR</h2>
-                  <ul class="text-gray-400 font-medium">
-                      <li class="mb-4">
-                          <a href="#" class="hover:underline">###########</a>
-                      </li>
-                      <li>
-                          <a href="#" class="hover:underline">###########</a>
-                      </li>
-                  </ul>
-              </div>
+
           </div>
       </div>
       <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-4" />
       <div class="sm:flex sm:items-center sm:justify-between">
-          <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 ESLAND. All Rights Reserved.
+          <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">{ i18n.FOOTER.derechos }
           </span>
       </div>
     </div>

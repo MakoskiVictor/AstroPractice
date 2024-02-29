@@ -1,5 +1,10 @@
 ---
 import Logo from '@components/Logo.astro'
+
+import { getI18N } from '@i18n/index'
+
+const { currentLocale } = Astro
+const i18n = getI18N({currentLocale})
 ---
 
 <header id="header-nav" class=" fixed w-screen py-3 px-8 z-50 top-0 lg:px-0 " >
@@ -10,8 +15,8 @@ import Logo from '@components/Logo.astro'
 
         <nav class=" col-span-1 justify-self-center " >
             <ul class=" flex gap-4 " >
-                <li><a href="#" class=" hover:underline " >INFO</a></li>
-                <li><a href="#" class=" hover:underline " >ARCHIVO</a></li>
+                <li><a href="#" class=" hover:underline " >{ i18n.HEADER.info }</a></li>
+                <li><a href="#" class=" hover:underline " >{ i18n.HEADER.archivo }</a></li>
             </ul>
         </nav>
 
@@ -20,7 +25,7 @@ import Logo from '@components/Logo.astro'
             class=" border rounded-full inline-block border-white px-4 py-2
             justify-self-end hover:bg-white hover:text-black duration-300 "
         >
-            ESLAND: EL DOCUMENTAL
+        { i18n.HEADER.documental }
         </a>
 
     </div>
