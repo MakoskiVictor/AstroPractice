@@ -20,11 +20,12 @@ const { currentLocale } = Astro
 		<meta name="viewport" content="width=device-width" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<title>{title}</title>
+		<ViewTransitions />
 	</head>
 	<body>
 		<Header />
 		<slot />
-		<ViewTransitions />
+		
 	</body>
 </html>
 <style is:global>
