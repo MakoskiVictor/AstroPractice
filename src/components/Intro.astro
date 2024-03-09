@@ -4,11 +4,11 @@ import Logo from './Logo.astro'
 import { getI18N } from '@i18n/index'
 
 const { currentLocale } = Astro
-console.log(currentLocale)
+
 const i18n = getI18N({currentLocale})
 ---
-<section class="text-xl text-left px-20 max-w-[70ch] text-pretty mx-auto my-24">
-    <!-- <img class="w-16 m-auto mb-10" src="logo.svg" alt="logo ESLAND"> -->
+<section class="text-xl text-left px-20 max-w-[70ch] text-pretty mx-auto my-24 animate-fade-up">
+
     <Logo class="w-16 text-white m-auto mb-10" />
 
     <h1 class="text-4xl font-semibold text-center text-wrap mx-auto mb-10 tracking-wide">
