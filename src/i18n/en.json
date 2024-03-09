@@ -32,5 +32,9 @@
     "info": "Information",
     "archivo": "Archive",
     "derechos": "© 2023 ESLAND. All rights reserved."
-  }
+  },
+    "ARCHIVO": {
+    "h1": "Previous editions",
+    "videoButton": "Relive the Last Gala"
+    }
 }
