@@ -1,6 +1,7 @@
 ---
 import '@fontsource-variable/onest'
 import Header from '../components/Header.astro';
+import ViewTransitions from 'astro/components/ViewTransitions.astro';
 
 interface Props {
 	title: string;
@@ -23,6 +24,7 @@ const { currentLocale } = Astro
 	<body>
 		<Header />
 		<slot />
+		<ViewTransitions />
 	</body>
 </html>
 <style is:global>
