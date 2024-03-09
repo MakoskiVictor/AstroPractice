@@ -1,0 +1,11 @@
+---
+const { link, styles, blank } = Astro.props
+---
+<a 
+            href={link} 
+            target={blank ?? '_blank'}
+            class=`{${styles}} border  uppercase rounded-full inline-block border-white z-50 px-4 py-2 
+                    justify-self-end hover:bg-white hover:text-black duration-300 `
+        >
+         <slot />
+</a>
