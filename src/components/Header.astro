@@ -9,19 +9,19 @@ const i18n = getI18N({currentLocale})
 ---
 
 <header id="header-nav" class=" fixed w-screen py-3 px-8 z-50 top-0 lg:px-0 " >
-    <div class=" grid grid-cols-2 sm:grid-cols-3 max-w-7xl mx-auto items-center justify-between " >
+    <div class="grid grid-cols-2  mx-auto items-center justify-between sm:grid-cols-3 sm:max-w-7xl" >
             <a href="/" class=" w-28 ">
                 <Logo class=" w-28 h-auto " />
             </a>
 
-        <nav class=" col-span-1 justify-self-center " >
+        <nav class=" col-span-1 justify-self-end sm:justify-self-center " >
             <ul class=" flex gap-4 " >
                 <li><a href="/info" class=" hover:underline " >{ i18n.HEADER.info }</a></li>
                 <li><a href="/archivo" class=" hover:underline " >{ i18n.HEADER.archivo }</a></li>
             </ul>
         </nav>
 
-        <div class=" hidden md:block " >
+        <div class=" hidden md:block justify-self-end " >
             <Button link="#" blank={false} >{ i18n.HEADER.documental }</Button>
         </div>
 
