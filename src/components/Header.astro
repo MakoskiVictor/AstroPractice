@@ -1,5 +1,6 @@
 ---
 import Logo from '@components/Logo.astro'
+import Button from '@components/Button.astro'
 
 import { getI18N } from '@i18n/index'
 
@@ -8,7 +9,7 @@ const i18n = getI18N({currentLocale})
 ---
 
 <header id="header-nav" class=" fixed w-screen py-3 px-8 z-50 top-0 lg:px-0 " >
-    <div class=" grid grid-cols-3 max-w-7xl mx-auto items-center justify-between " >
+    <div class=" grid grid-cols-2 sm:grid-cols-3 max-w-7xl mx-auto items-center justify-between " >
             <a href="/" class=" w-28 ">
                 <Logo class=" w-28 h-auto " />
             </a>
@@ -16,17 +17,13 @@ const i18n = getI18N({currentLocale})
         <nav class=" col-span-1 justify-self-center " >
             <ul class=" flex gap-4 " >
                 <li><a href="/info" class=" hover:underline " >{ i18n.HEADER.info }</a></li>
-                <li><a href="archivo" class=" hover:underline " >{ i18n.HEADER.archivo }</a></li>
+                <li><a href="/archivo" class=" hover:underline " >{ i18n.HEADER.archivo }</a></li>
             </ul>
         </nav>
 
-        <a 
-            href="#" 
-            class=" border rounded-full inline-block border-white px-4 py-2
-            justify-self-end hover:bg-white hover:text-black duration-300 "
-        >
-        { i18n.HEADER.documental }
-        </a>
+        <div class=" hidden md:block " >
+            <Button link="#" blank={false} >{ i18n.HEADER.documental }</Button>
+        </div>
 
     </div>
 
